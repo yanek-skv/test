@@ -31,6 +31,10 @@ print(y)
 ys=y.split(' ')
 print(((''.join(filter(str.isalpha, ys[0]))).lower())+' '+((''.join(filter(str.isalpha, ys[1]))).lower())+' '+((''.join(filter(str.isalpha, ys[2]))).lower()) )
 
+#  В одну строку
+y='П@Р!!!и?в)))))еТ: к00АК^ дЕлА'
+print(((''.join(filter(str.isalpha, y.split(' ')[0]))).lower())+' '+((''.join(filter(str.isalpha, y.split(' ')[1]))).lower())+' '+((''.join(filter(str.isalpha, y.split(' ')[2]))).lower()))
+
 
 
 
